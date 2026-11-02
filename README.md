@@ -2,9 +2,6 @@
 
 A native iOS task management app built with **SwiftUI, SwiftData, and MVVM**. OfflineTaskTracker helps users organize everyday work, manage priorities and deadlines, and track progress through a clean dashboard — with task data stored locally on the device.
 
-<p align="center">
-  <img src="Screenshots/app-preview.png" alt="OfflineTaskTracker app preview" width="280">
-</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Platform-iOS%2026.0%2B-000000?logo=apple" alt="iOS 26.0+">
