@@ -121,15 +121,13 @@ OfflineTaskTracker/
 
 ## Screenshots
 
-Add screenshots from the iPhone simulator to the `Screenshots/` directory and update the image paths below.
+1. <img width="378" height="769" alt="Screenshot 2026-11-02 at 4 51 02 PM" src="https://github.com/user-attachments/assets/abe8933c-68f5-4c69-8266-6b49d58339c6" />
+2. <img width="378" height="772" alt="Screenshot 2026-11-02 at 4 51 28 PM" src="https://github.com/user-attachments/assets/6bad716b-b9c5-4c79-9ba8-8826731c664d" />
+3. <img width="378" height="760" alt="Screenshot 2026-11-02 at 4 51 47 PM" src="https://github.com/user-attachments/assets/0c7a6bb5-0bff-4c09-b61d-6c219c65b060" />
+4. <img width="371" height="773" alt="Screenshot 2026-11-02 at 4 52 06 PM" src="https://github.com/user-attachments/assets/43ebc742-20bf-4e4f-a8e2-f0fd49269884" />
+5. <img width="391" height="777" alt="Screenshot 2026-11-02 at 4 52 17 PM" src="https://github.com/user-attachments/assets/a8dd52f0-283f-45dd-bfe2-f51efd8c0098" />
 
-| Overview Dashboard | My Tasks |
-|---|---|
-| `Screenshots/dashboard.png` | `Screenshots/tasks.png` |
 
-| Create Task | Task Details |
-|---|---|
-| `Screenshots/create-task.png` | `Screenshots/task-details.png` |
 
 ## Requirements
 
@@ -195,8 +193,6 @@ The UI automation suite covers the main user flows, including app launch, task c
 - [ ] Publish the v1.0 GitHub release.
 
 ## Author
-
-**Your Name**
 
 Rutik-Maraskolhe-iOS-Developer
 
