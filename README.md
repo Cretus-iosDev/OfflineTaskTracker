@@ -198,8 +198,7 @@ The UI automation suite covers the main user flows, including app launch, task c
 
 **Your Name**
 
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: [Your LinkedIn](https://www.linkedin.com/)
+Rutik-Maraskolhe-iOS-Developer
 
 ---
 
