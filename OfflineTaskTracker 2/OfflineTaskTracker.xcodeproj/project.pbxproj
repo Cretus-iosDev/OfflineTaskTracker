@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 70;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000000000000000000000065 /* OfflineTaskTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000001 /* OfflineTaskTrackerApp.swift */; };
+		000000000000000000000066 /* TaskCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000002 /* TaskCategory.swift */; };
+		000000000000000000000067 /* TaskItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000003 /* TaskItem.swift */; };
+		000000000000000000000068 /* TaskPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000004 /* TaskPriority.swift */; };
+		000000000000000000000069 /* TaskRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000005 /* TaskRepository.swift */; };
+		00000000000000000000006A /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000006 /* TaskViewModel.swift */; };
+		00000000000000000000006B /* TaskRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000007 /* TaskRowView.swift */; };
+		00000000000000000000006C /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000008 /* DashboardView.swift */; };
+		00000000000000000000006D /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000009 /* RootView.swift */; };
+		00000000000000000000006E /* TaskDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000A /* TaskDetailView.swift */; };
+		00000000000000000000006F /* TaskFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000B /* TaskFormView.swift */; };
+		000000000000000000000070 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000C /* TaskListView.swift */; };
+		F448B58A3098AC080039EE26 /* Assests.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F448B5893098AC080039EE26 /* Assests.xcassets */; };
+		F448B58B3098AC080039EE26 /* Assests.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F448B5893098AC080039EE26 /* Assests.xcassets */; };
+		F448B58D3098ACB50039EE26 /* OfflineTaskTracker_SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F448B58C3098ACB50039EE26 /* OfflineTaskTracker_SplashScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F448B57E3098A45D0039EE26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000000000000000000000193 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 000000000000000000000192;
+			remoteInfo = OfflineTaskTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000000000000000000000001 /* OfflineTaskTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineTaskTrackerApp.swift; sourceTree = "<group>"; };
+		000000000000000000000002 /* TaskCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCategory.swift; sourceTree = "<group>"; };
+		000000000000000000000003 /* TaskItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItem.swift; sourceTree = "<group>"; };
+		000000000000000000000004 /* TaskPriority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskPriority.swift; sourceTree = "<group>"; };
+		000000000000000000000005 /* TaskRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRepository.swift; sourceTree = "<group>"; };
+		000000000000000000000006 /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
+		000000000000000000000007 /* TaskRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRowView.swift; sourceTree = "<group>"; };
+		000000000000000000000008 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		000000000000000000000009 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		00000000000000000000000A /* TaskDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailView.swift; sourceTree = "<group>"; };
+		00000000000000000000000B /* TaskFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFormView.swift; sourceTree = "<group>"; };
+		00000000000000000000000C /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
+		000000000000000000000191 /* OfflineTaskTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OfflineTaskTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F448B57A3098A45D0039EE26 /* OfflineTaskTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OfflineTaskTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F448B5893098AC080039EE26 /* Assests.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assests.xcassets; sourceTree = "<group>"; };
+		F448B58C3098ACB50039EE26 /* OfflineTaskTracker_SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineTaskTracker_SplashScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F448B57B3098A45D0039EE26 /* OfflineTaskTrackerTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); name = OfflineTaskTrackerTests; path = ../OfflineTaskTrackerTests; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		000000000000000000000195 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F448B5773098A45D0039EE26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00000000000000000000012C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000001 /* OfflineTaskTrackerApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		00000000000000000000012D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000002 /* TaskCategory.swift */,
+				000000000000000000000003 /* TaskItem.swift */,
+				000000000000000000000004 /* TaskPriority.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		00000000000000000000012E /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000005 /* TaskRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		00000000000000000000012F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000006 /* TaskViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		000000000000000000000130 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000131 /* Dashboard */,
+				000000000000000000000132 /* Tasks */,
+				000000000000000000000133 /* Components */,
+				000000000000000000000009 /* RootView.swift */,
+				F448B58C3098ACB50039EE26 /* OfflineTaskTracker_SplashScreen.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		000000000000000000000131 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000008 /* DashboardView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		000000000000000000000132 /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				00000000000000000000000A /* TaskDetailView.swift */,
+				00000000000000000000000B /* TaskFormView.swift */,
+				00000000000000000000000C /* TaskListView.swift */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+		000000000000000000000133 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000007 /* TaskRowView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		00000000000000000000018F /* OfflineTaskTracker */ = {
+			isa = PBXGroup;
+			children = (
+				F448B5893098AC080039EE26 /* Assests.xcassets */,
+				00000000000000000000012C /* App */,
+				00000000000000000000012D /* Models */,
+				00000000000000000000012E /* Repositories */,
+				00000000000000000000012F /* ViewModels */,
+				000000000000000000000130 /* Views */,
+				F448B57B3098A45D0039EE26 /* OfflineTaskTrackerTests */,
+				000000000000000000000190 /* Products */,
+			);
+			path = OfflineTaskTracker;
+			sourceTree = "<group>";
+		};
+		000000000000000000000190 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000191 /* OfflineTaskTracker.app */,
+				F448B57A3098A45D0039EE26 /* OfflineTaskTrackerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		000000000000000000000192 /* OfflineTaskTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00000000000000000000019F /* Build configuration list for PBXNativeTarget "OfflineTaskTracker" */;
+			buildPhases = (
+				000000000000000000000194 /* Sources */,
+				000000000000000000000195 /* Frameworks */,
+				000000000000000000000196 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OfflineTaskTracker;
+			productName = OfflineTaskTracker;
+			productReference = 000000000000000000000191 /* OfflineTaskTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F448B5793098A45D0039EE26 /* OfflineTaskTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F448B5823098A45D0039EE26 /* Build configuration list for PBXNativeTarget "OfflineTaskTrackerTests" */;
+			buildPhases = (
+				F448B5763098A45D0039EE26 /* Sources */,
+				F448B5773098A45D0039EE26 /* Frameworks */,
+				F448B5783098A45D0039EE26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F448B57F3098A45D0039EE26 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F448B57B3098A45D0039EE26 /* OfflineTaskTrackerTests */,
+			);
+			name = OfflineTaskTrackerTests;
+			packageProductDependencies = (
+			);
+			productName = OfflineTaskTrackerTests;
+			productReference = F448B57A3098A45D0039EE26 /* OfflineTaskTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000000000000000000000193 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2720;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					000000000000000000000192 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					F448B5793098A45D0039EE26 = {
+						CreatedOnToolsVersion = 27.2;
+						TestTargetID = 000000000000000000000192;
+					};
+				};
+			};
+			buildConfigurationList = 00000000000000000000019E /* Build configuration list for PBXProject "OfflineTaskTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00000000000000000000018F /* OfflineTaskTracker */;
+			productRefGroup = 000000000000000000000190 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				000000000000000000000192 /* OfflineTaskTracker */,
+				F448B5793098A45D0039EE26 /* OfflineTaskTrackerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		000000000000000000000196 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F448B58B3098AC080039EE26 /* Assests.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F448B5783098A45D0039EE26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F448B58A3098AC080039EE26 /* Assests.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		000000000000000000000194 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000000000000000065 /* OfflineTaskTrackerApp.swift in Sources */,
+				F448B58D3098ACB50039EE26 /* OfflineTaskTracker_SplashScreen.swift in Sources */,
+				000000000000000000000066 /* TaskCategory.swift in Sources */,
+				000000000000000000000067 /* TaskItem.swift in Sources */,
+				000000000000000000000068 /* TaskPriority.swift in Sources */,
+				000000000000000000000069 /* TaskRepository.swift in Sources */,
+				00000000000000000000006A /* TaskViewModel.swift in Sources */,
+				00000000000000000000006B /* TaskRowView.swift in Sources */,
+				00000000000000000000006C /* DashboardView.swift in Sources */,
+				00000000000000000000006D /* RootView.swift in Sources */,
+				00000000000000000000006E /* TaskDetailView.swift in Sources */,
+				00000000000000000000006F /* TaskFormView.swift in Sources */,
+				000000000000000000000070 /* TaskListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F448B5763098A45D0039EE26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F448B57F3098A45D0039EE26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 000000000000000000000192 /* OfflineTaskTracker */;
+			targetProxy = F448B57E3098A45D0039EE26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00000000000000000000019A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_TESTABILITY = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		00000000000000000000019B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		00000000000000000000019C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.OfflineTaskTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00000000000000000000019D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.OfflineTaskTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F448B5803098A45D0039EE26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = WR5H634DWJ;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rutik.OfflineTaskTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OfflineTaskTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OfflineTaskTracker";
+			};
+			name = Debug;
+		};
+		F448B5813098A45D0039EE26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = WR5H634DWJ;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rutik.OfflineTaskTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OfflineTaskTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OfflineTaskTracker";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00000000000000000000019E /* Build configuration list for PBXProject "OfflineTaskTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00000000000000000000019A /* Debug */,
+				00000000000000000000019B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00000000000000000000019F /* Build configuration list for PBXNativeTarget "OfflineTaskTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00000000000000000000019C /* Debug */,
+				00000000000000000000019D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F448B5823098A45D0039EE26 /* Build configuration list for PBXNativeTarget "OfflineTaskTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F448B5803098A45D0039EE26 /* Debug */,
+				F448B5813098A45D0039EE26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 000000000000000000000193 /* Project object */;
+}
