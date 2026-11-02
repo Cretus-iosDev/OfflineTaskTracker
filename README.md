@@ -117,7 +117,6 @@ OfflineTaskTracker/
     └── TaskViewModelTests.swift
 ```
 
-*The exact test-group and file names may differ depending on how the Xcode project is organized.*
 
 ## Screenshots
 
