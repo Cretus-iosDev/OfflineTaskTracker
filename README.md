@@ -183,13 +183,6 @@ The UI automation suite covers the main user flows, including app launch, task c
 - Dashboard metrics derived from the current task collection.
 - XCTest coverage for model, repository, view-model, and user-interface behavior.
 
-## Roadmap
-
-- [ ] Complete code-quality review for error handling and data consistency.
-- [ ] Review accessibility and VoiceOver support.
-- [ ] Review performance and edge cases.
-- [ ] Add final app icon and App Store-style screenshots.
-- [ ] Publish the v1.0 GitHub release.
 
 ## Author
 
